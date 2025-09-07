@@ -1,0 +1,113 @@
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            background-color: #f9f9f9;
+        }
+.sidebar {
+            width: 220px;
+            background: #1d1d1d;
+            color: white;
+            height: 100vh;
+            padding: 25px 0;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            padding: 10px 20px;
+        }
+
+        .sidebar ul li.active {
+            background: #7a3ff2;
+            border-radius: 5px;
+        }
+
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header input {
+            padding: 6px;
+            flex: 1;
+        }
+
+        header .profile {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        header .avatar {
+            width: 32px;
+            height: 32px;
+            background: gray;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            color: white;
+        }
+        button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease; /* smooth hover effect */
+}
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+.sidebar ul li {
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.sidebar ul li:hover {
+    background: #333; /* Slightly lighter than sidebar */
+    transform: translateX(5px); /* Slide effect */
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li:hover a {
+    color: #a875ff; /* Soft purple on hover */
+}
+ .bottom-links {display: flex; flex-direction: column; margin-top: 100px; }
+        .bottom-links a {color: white; text-decoration: none; margin: 5px 0; padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease; /* Smooth transition */}
+
+        .bottom-links a:hover  {
+        color: #a875ff; /* Soft purple on hover */
+        background: #333;
+        transform: translateX(5px);
+      }
